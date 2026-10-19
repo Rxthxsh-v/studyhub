@@ -19,5 +19,5 @@ def search_materials(subject_code):
 
 if __name__ == "__main__":
     print("=== StudyHub Backend Processing Engine ===")
-    code = input("Enter Subject Code to search (e.g., GE3151): ")
+    code = input("Enter Subject Code to search (e.g., 26CS101): ")
     search_materials(code)
